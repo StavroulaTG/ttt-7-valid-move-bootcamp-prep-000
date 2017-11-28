@@ -7,6 +7,8 @@ def valid_move?(board, index)
   elsif
     valid_move?(board, index) == true
     true
+  else
+    board[index] = 0
 
   end
 end
