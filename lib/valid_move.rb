@@ -1,6 +1,6 @@
 # code your #valid_move? method here
 def valid_move?(board, index)
-  true
+
   if valid_move?(board, index) == false
     nil
 end
