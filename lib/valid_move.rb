@@ -3,6 +3,12 @@ def valid_move?(board, index)
 
   if valid_move?(board, index) == false
     nil
+
+  elsif
+    valid_move?(board, index) == true
+    true
+
+  end
 end
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
